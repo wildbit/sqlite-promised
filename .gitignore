@@ -1,8 +1,6 @@
 node_modules/
-typings/
+.vscode
 .tscache/
-
-/build/
 .baseDir.*
 npm-debug.log
 tscommand-*.tmp.txt

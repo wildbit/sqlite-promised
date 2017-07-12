@@ -6,13 +6,10 @@
 	"types": "build/sqlite-promised.d.ts",
 	"repository": { "type" : "git", "url" : "https://github.com/luzianz/sqlite-promised.git"},
 	"dependencies": {
-		"sqlite3": "3.1.8"
+		"sqlite3": "^3.1"
 	},
 	"devDependencies": {
 		"@types/sqlite3": "2.2.31",
-		"grunt": "1.0.1",
-		"grunt-contrib-copy": "^1.0.0",
-		"grunt-ts": "5.5.1",
 		"jasmine": "2.3.1",
 		"typescript": "2.1.4"
 	},

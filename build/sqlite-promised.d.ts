@@ -1,0 +1,11 @@
+import * as sqlite3 from 'sqlite3';
+export declare function openDatabaseAsync(filePath: string): Promise<sqlite3.Database>;
+export declare function closeDatabaseAsync(db: sqlite3.Database): Promise<void>;
+export declare function prepareStatementAsync(db: sqlite3.Database, sql: string): Promise<sqlite3.Statement>;
+export declare function finalizeStatementAsync(stmt: sqlite3.Statement): Promise<void>;
+export declare function runStatementAsync(stmt: sqlite3.Statement, params?: any): Promise<void>;
+export declare function queryStatementAsync<T>(stmt: sqlite3.Statement, params?: any): Promise<T[]>;
+export declare function runAndFinalizeAsync(db: sqlite3.Database, sql: string, params?: any): Promise<void>;
+export declare function runAndCloseAsync(db: sqlite3.Database, sql: string, params?: any): Promise<void>;
+export declare function queryAndFinalizeAsync<T>(db: sqlite3.Database, sql: string, params?: any): Promise<T[]>;
+export declare function queryAndCloseAsync<T>(db: sqlite3.Database, sql: string, params?: any): Promise<T[]>;

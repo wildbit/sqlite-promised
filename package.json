@@ -1,21 +1,24 @@
 {
-	"name": "sqlite-promised",
-	"version": "1.0.8",
-	"description": "A promise wrapper of sqlite3 written in typescript",
-	"main": "build/sqlite-promised.js",
-	"types": "build/sqlite-promised.d.ts",
-	"repository": { "type" : "git", "url" : "https://github.com/luzianz/sqlite-promised.git"},
-	"dependencies": {
-		"sqlite3": "^3.1"
-	},
-	"devDependencies": {
-		"@types/sqlite3": "2.2.31",
-		"jasmine": "2.3.1",
-		"typescript": "2.1.4"
-	},
-	"scripts": {
-		"test": "jasmine"
-	},
-	"author": "Luzian Zagadinow",
-	"license": "MIT"
+  "name": "sqlite-promised",
+  "version": "1.0.8",
+  "description": "A promise wrapper of sqlite3 written in typescript",
+  "main": "build/sqlite-promised.js",
+  "types": "build/sqlite-promised.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luzianz/sqlite-promised.git"
+  },
+  "dependencies": {
+    "@types/sqlite3": "^2.2.31",
+    "sqlite3": "^3.1"
+  },
+  "devDependencies": {
+    "jasmine": "2.3.1",
+    "typescript": "2.1.4"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Luzian Zagadinow",
+  "license": "MIT"
 }

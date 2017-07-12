@@ -2,10 +2,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "outDir": "./build",
+    "declarationDir": "./build",
     "removeComments": true,
     "target": "es6",
     "declaration": true,
     "sourceMap": false,
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "types": [
+      "sqlite3"
+    ]
   }
 }

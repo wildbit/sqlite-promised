@@ -1,8 +1,10 @@
 {
 	"name": "sqlite-promised",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "A promise wrapper of sqlite3 written in typescript",
 	"main": "build/sqlite-promised.js",
+	"types": "build/sqlite-promised.d.ts",
+	"repository": { "type" : "git", "url" : "https://github.com/luzianz/sqlite-promised.git"},
 	"dependencies": {
 		"sqlite3": "3.1.8"
 	},
